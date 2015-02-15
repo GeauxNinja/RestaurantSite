@@ -120,9 +120,10 @@ footer {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 2%;
-	background-color: #43a6cb;
-	color: #FFFFFF;
+	/*background-color: #43a6cb;
+	color: #FFFFFF;*/
 	clear: left;
+	text-align: center;
 }
 
 a {
