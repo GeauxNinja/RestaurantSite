@@ -13,18 +13,27 @@
 </head>
 <body>
     <div id="wrapper">
-  <header id="top">
-    <h1>Local Flavor</h1>
-    <nav id="mainnav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="dempseys.html">Dempsey's</a></li>
-        <li><a href="BBs.html">BB's Bar-BQ</a></li>
-        <li><a href="trapanis.html">Trapani's</a></li>
-        <li><a href="Thai.html">Thai Sakura</a></li>
-        <li><a href="contact.html" class="thispage">Contact</a></li>
-      </ul>
-    </nav>
+ <header class="container">
+      <div id="menu" class="navbar navbar-default">
+		<div class="navbar-header">
+			<button class="btn btn-default navbar-toggle"
+				data-toggle="collapse"
+				data-target=".navbar-collapse"><span class="glyphicon glyphicon-collapse-down"></span></button>
+			<div id="logo">
+			<a><h2>Local Flavor</h2></a>
+		</div>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="nav"><a href="index.html">Index</a></li>
+			  <li class="nav"><a href="dempseys.html">Dempsey's</a></li>
+			  <li class="nav"><a href="BBs.html">BB's</a></li>
+			  <li class="nav"><a href="trapanis.html">Trapani's</a></li>
+			  <li class="nav active"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+      </div>
+    </header>
     <div>
         <h2>Feel free to ask for a List of Menus.</h2>
     <form class="centered" id="form" action="#" method="POST" enctype="multipart/form-data">
