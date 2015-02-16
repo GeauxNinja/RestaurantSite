@@ -39,21 +39,41 @@
       <section id="main" class="col-md-8 col-sm-9">
     <div>
         <h2>Feel free to ask for a List of Menus.</h2>
-    <form class="centered" id="form" action="#" method="POST" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="message">Request:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-    </form>
+    <div class="col-md-6">
+	  <form>
+        <div class="form-group">
+			<label for="namebox">Your Name</label>
+			<input name="namebox" class="form-control" />
+        </div>
+		<div class="form-group">
+			<label for="emailbox">Email</label>
+			<div class="input-group">
+			<span class="input-group-addon">@</span>
+			<input type="email" name="emailbox" class="form-control"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="reason">Which Menu</label>
+				
+				<div class="dropdown">
+					<button class="btn btn-default" data-toggle="dropdown" id="pickbutton"><span class="caret"></span>  Choose </button>
+					<ul class="dropdown-menu" id="reasonDropdown">
+                      <li><a href="#" tabindex="-1"></a>Lawn service</li>
+					  <li><a href="#" tabindex="-1"></a>Dempsey's</li>
+					  <li><a href="#" tabindex="-1"></a>Thai</li>
+					  <li><a href="#" tabindex="-1"></a>BB's</li>
+					  <li><a href="#" tabindex="-1"></a>Trapani's</li>				  
+                    </ul>
+				</div>			
+		</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+		
+        <textarea cols="40" rows="6" class="form-control"></textarea>
+		</div>
+        <input type="submit" value="Submit" class="btn btn-default" />
+      </form>
+	  </div>
     </div>
     <div>
     <footer class="container">
