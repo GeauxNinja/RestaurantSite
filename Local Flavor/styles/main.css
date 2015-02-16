@@ -156,6 +156,8 @@ a:hover, a:active, a:focus {
 }
 .nav{
 	margin:2px 0px 0px 0px;
+	
+}
 #mainnav a {
 	width: 16.66%;
 	display: block;
