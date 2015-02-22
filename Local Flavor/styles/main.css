@@ -156,9 +156,7 @@ a:hover, a:active, a:focus {
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
-#wrapper #top #mainnav ul li a {
-}
-#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav thispage {
 	background-color: #43A6CB;
 	text-decoration: none;
 }
@@ -173,13 +171,11 @@ a:hover, a:active, a:focus {
 	border-radius: 26px;
 	color: #FFFCFC;
 }
-#wrapper #hero article h2 {
-}
 #hero {
 	position: relative;
 	border-radius: 30px;
 }
-#hero h2 {
+#hero {
 	color: #FFFCFC;
 	text-transform: uppercase;
 	margin-bottom: -8px;
