@@ -74,7 +74,6 @@ figure {
 }
 
 figure img {
-	padding: 10px;
 	-webkit-box-shadow: 1px 1px 15px #888888;
 	box-shadow: 1px 1px 15px #888888;
 }
