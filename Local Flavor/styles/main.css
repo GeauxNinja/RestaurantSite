@@ -157,8 +157,10 @@ a:hover, a:active, a:focus {
 	padding-bottom: 6px;
 }
 #mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav thispage {
-	background-color: #43A6CB;
+	
 	text-decoration: none;
+	background-color: #F8F8F8;
+    border-color: #E7E7E7;
 }
 #hero article {
 	width: 36%;
