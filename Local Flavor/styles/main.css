@@ -140,9 +140,10 @@ a:hover, a:active, a:focus {
 }
 .nav{
 	margin:2px 0px 0px 0px;
-	border-radius: 10px;
-	box-shadow: 10px 10px 5px #888888;
-	
+}
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
 }
 #mainnav a {
 	width: 16.66%;
